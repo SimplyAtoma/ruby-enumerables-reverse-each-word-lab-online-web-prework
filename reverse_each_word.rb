@@ -1,7 +1,7 @@
 def reverse_each_word( string)
   split_string = string.split(" ")
   split_string.each do |split_string|
-    word = split_string.split("")
+    while word.
     word.length.times{ |index|
       word = split_string[index].split("")
       reversed = []
